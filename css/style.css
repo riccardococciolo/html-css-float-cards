@@ -9,5 +9,76 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+}
+
+/* title */
+h1 {
+    color: mediumvioletred;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+}
+
+/* container */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* text */
+.text-margin {
+    margin-bottom: 1em;
+}
+
+/* row */
+.row {
+    background-color: black;
+}
+
+/* col */
+.col {
+    float: left;
+    width: calc(100% / 3);
+    text-align: left;
+    padding: 1em;
+}
+
+/* card */
+.card {
+    background-color: black;
+    padding: 1px;
+}
+
+/* img */
+img {
+    height: 70px;
+    float: left;
+}
+
+/* background-text */
+.background-text {
+    background-color: black;
+    height: 70px;
+    padding: 1px;
+    padding-left: 75px;
+}
+
+span {
+    color: white;
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+.img-text-1 {
+    font-size: 1.2rem;
+}
+
+.img-text-2 {
+    color: lightgray;
+}
+
+.img-text-3 {
+    color: rgb(63, 152, 253);
 }
